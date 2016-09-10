@@ -1,11 +1,10 @@
+package com.calculate;
 /**
  * This class is a CalculatorService
  * that perfroms all the standard calculation operations
  * @author varun
  * @version 1.0.0
  */
-package com.calculate;
-
 public class CalculatorService {
 
 	/**
@@ -15,8 +14,7 @@ public class CalculatorService {
 	 * @return
 	 */
 	public int add(int a, int b) {
-		int sum = a+b;
-		return sum;
+		return a+b;
 	}
 	
 	/**
@@ -26,8 +24,7 @@ public class CalculatorService {
 	 * @return
 	 */
 	public int subtract(int a, int b) {
-		int difference = a -b;
-		return difference;
+		return a -b;
 	}
 	
 	/**
@@ -37,8 +34,7 @@ public class CalculatorService {
 	 * @return
 	 */
 	public int multiply(int a, int b) {
-		int product = a*b;
-		return product;
+		return a*b;
 	}
 	
 	/**
@@ -48,8 +44,7 @@ public class CalculatorService {
 	 * @return
 	 */
 	public int divide(int a, int b) {
-		int divide = a/b;
-		return divide;
+		return a/b;
 	}
 	
 	
